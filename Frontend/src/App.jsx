@@ -34,7 +34,7 @@ function App() {
 
 
         <Route path="/profile" element={<AgentProfile />} />
-        <Route path="/profile/chatRooms" element={<AgentChatRooms />} />
+        <Route path="/profile/chatRooms" element={  <AgentChatRooms />} />
         <Route path="/admin" element={<AdminProfile />} />
         <Route path="/admin/monitorchatroom" element={<MonitorChatRoom />} />
         <Route path="/knowledgebase" element={<ArticlesList />} />
